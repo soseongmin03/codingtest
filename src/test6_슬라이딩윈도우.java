@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class test6 {
+public class test6_슬라이딩윈도우 {
     static int nowArr[] = new int[4]; // 현재 문자열의 문자 카운팅
     static int checkArr[] = new int[4]; // 조건
     static int check = 0; // 얼마나 일치하는지
