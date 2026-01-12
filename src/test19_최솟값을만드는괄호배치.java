@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class test19 {
+public class test19_최솟값을만드는괄호배치 {
     static int answer;
 
     public static void main(String[] args) {

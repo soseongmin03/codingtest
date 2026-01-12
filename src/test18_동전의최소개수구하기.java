@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class test18 {
+public class test18_동전의최소개수구하기 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
