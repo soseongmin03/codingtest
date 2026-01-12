@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class test15 {
+public class test15_색종이붙이기백트래킹 {
     static int[][] m = new int[10][10];
     static int[] s = {0,5,5,5,5,5};
     static int result = Integer.MAX_VALUE;

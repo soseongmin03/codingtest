@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class test14 {
+public class test14_nqueen백트래킹 {
     static int[] a;
     static int n;
     static int cnt = 0;

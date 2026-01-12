@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class test16 {
+public class test16_미로탐색BFS {
     //0일때 아래 1일때 오른쪽 2일때 위쪽 3일때 왼쪽 탐색을 위한 인덱스 지정
     static int dx[] = {0,1,0,-1};
     static int dy[] = {1,0,-1,0};
