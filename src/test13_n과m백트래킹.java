@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class test13 {
+public class test13_n과m백트래킹 {
     static boolean v[];
     static int num[];
     static int n;

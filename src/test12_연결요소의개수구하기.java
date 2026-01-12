@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-public class test12 {
+public class test12_연결요소의개수구하기 {
     static boolean visited[];
     static ArrayList<Integer>[] a;
     public static void main(String[] args) throws IOException {
