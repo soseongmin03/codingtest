@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class test2 {
+public class test2_평균구하기 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();

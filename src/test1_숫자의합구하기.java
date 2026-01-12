@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class test1 {
+public class test1_숫자의합구하기 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
