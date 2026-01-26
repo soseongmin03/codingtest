@@ -11,13 +11,13 @@ public class test49_영어끝말잇기 {
                 if(words[i].equals(words[j])){ // 중복단어
                     answer[0] = turn;
                     answer[1] = count;
-                    break;
+                    return answer;
                 }
             }
             if(s != words[i].charAt(0)){ // 끝말잇기 실패
                 answer[0] = turn;
                 answer[1] = count;
-                break;
+                return answer;
             }
             if(turn == n){ // 한바퀴가 돌면 다시 1번부터
                 turn = 1;
@@ -27,7 +27,6 @@ public class test49_영어끝말잇기 {
             }
             s = words[i].charAt(words[i].length()-1);
         }
-
         return answer;
     }
     public static void main(String[] args) {
