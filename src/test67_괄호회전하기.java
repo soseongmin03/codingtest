@@ -11,6 +11,7 @@ public class test67_괄호회전하기 {
     }
     private boolean istrue(String s){
         Stack<Character> stack = new Stack<>();
+        
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
             // 여는 괄호일 경우 스택에 push
@@ -29,6 +30,7 @@ public class test67_괄호회전하기 {
         }
         return stack.isEmpty();
     }
+
     private String cycle(String s){
         return s.substring(1)+s.charAt(0);
     }
