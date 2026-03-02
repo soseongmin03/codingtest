@@ -20,6 +20,7 @@ public class test88_숫자문자열과영단어 {
             }
         }
         return Integer.parseInt(String.valueOf(number));
+
     }
 
     public static void main(String[] args) {

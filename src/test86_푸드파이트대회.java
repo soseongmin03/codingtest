@@ -13,6 +13,7 @@ public class test86_푸드파이트대회 {
             }
         }
         return String.valueOf(answer);
+
     }
 
     public static void main(String[] args) {

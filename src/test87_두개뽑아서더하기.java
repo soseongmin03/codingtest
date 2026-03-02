@@ -20,6 +20,7 @@ public class test87_두개뽑아서더하기 {
             answer[i] = num.get(i);
         }
         return answer;
+
     }
 
     public static void main(String[] args) {
